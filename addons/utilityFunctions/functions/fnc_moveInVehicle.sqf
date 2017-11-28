@@ -10,8 +10,8 @@
   * Successfully added first parameter to a vehicle
   *
   * Example:
-  * [OPF_GROUP_ASL] call potato_moveInVehicle_fnc_moveInVehicle;
-  * [OPF_|UNIT_A1_FTL] call potato_moveInVehicle_fnc_moveInVehicle;
+  * [OPF_GROUP_ASL] call potato_utilityFunctions_fnc_moveInVehicle;
+  * [OPF_|UNIT_A1_FTL] call potato_utilityFunctions_fnc_moveInVehicle;
   *
   * Public: Yes
   */

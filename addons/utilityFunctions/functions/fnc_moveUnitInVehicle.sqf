@@ -10,7 +10,7 @@
   * Successfully unit to a vehicle
   *
   * Example:
-  * [OPF_UNIT_A1_FTL] call potato_moveInVehicle_fnc_moveUnitInVehicle;
+  * [OPF_UNIT_A1_FTL] call potato_utilityFunctions_fnc_moveUnitInVehicle;
   *
   * Public: Yes
   */

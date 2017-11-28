@@ -10,7 +10,7 @@
   * Successfully added group to a vehicle
   *
   * Example:
-  * [OPF_GROUP_ASL] call potato_moveInVehicle_fnc_moveGroupInVehicle;
+  * [OPF_GROUP_ASL] call potato_utilityFunctions_fnc_moveGroupInVehicle;
   *
   * Public: Yes
   */
