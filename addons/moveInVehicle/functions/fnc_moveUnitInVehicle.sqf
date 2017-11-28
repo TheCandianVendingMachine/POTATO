@@ -20,5 +20,7 @@ params["_unit", "_vehicles"];
 {
     if (_unit moveInAny _x) exitWith {true};
 } forEach _vehicles;
+systemChat format["[POTATO-MoveGroupInVehicle] Not enough space in vehicles to fit %1", str(_unit)];
+diag_log text format["[POTATO-MoveGroupInVehicle] Not enough space in vehicles to fit %1", str(_unit)];
 false
 

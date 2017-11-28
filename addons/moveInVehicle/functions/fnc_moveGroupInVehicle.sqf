@@ -18,6 +18,6 @@
 params["_group", "_vehicles"];
 
 {
-    [_x, _vehicles] call potato_moveInVehicle_moveUnitInVehicle;
-} forEach units _groupObject;
+    [_x, _vehicles] call FUNC(moveUnitInVehicle);
+} forEach units _group;
 

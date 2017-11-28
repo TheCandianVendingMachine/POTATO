@@ -25,7 +25,7 @@ if (typeName _object == "OBJECT") exitWith {
     [_object, _vehicles] call FUNC(moveUnitInVehicle);
 };
 
-systemChat text format["[POTATO] Can't move %1 into vehicle, it is not valid", str(_object)];
-diag_log text format["[POTATO] Can't move %1 into vehicle, it is not valid", str(_object)];
+systemChat text format["[POTATO](moveGroupInVehicle) Can't move %1 into vehicle", str(_object)];
+diag_log text format["[POTATO](moveGroupInVehicle) Can't move %1 into vehicle", str(_object)];
 false
 
