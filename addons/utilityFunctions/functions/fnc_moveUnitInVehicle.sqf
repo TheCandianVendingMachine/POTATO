@@ -17,10 +17,14 @@
 #include "script_component.hpp"
 params["_unit", "_vehicles"];
 
-{
+private _return = {
     if (_unit moveInAny _x) exitWith {true};
 } forEach _vehicles;
-systemChat format["[POTATO-MoveGroupInVehicle] Not enough space in vehicles to fit %1", str(_unit)];
-diag_log text format["[POTATO-MoveGroupInVehicle] Not enough space in vehicles to fit %1", str(_unit)];
-false
+
+if (isNil {_return}) exitWith {
+    systemChat format["[POTATO-MoveGroupInVehicle] Not enough space in vehicles to fit %1", str(_unit)];
+    diag_log text format["[POTATO-MoveGroupInVehicle] Not enough space in vehicles to fit %1", str(_unit)];
+    false
+};
+true
 
