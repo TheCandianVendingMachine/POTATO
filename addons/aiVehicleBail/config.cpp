@@ -3,17 +3,15 @@
 class CfgPatches {
     class ADDON {
         units[] = {};
+        weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ace_csw", "CUP_Weapons_StaticWeapons", "CUP_Creatures_StaticWeapons"};
+        requiredAddons[] = {"potato_core"};
         author = "Potato";
-        authors[] = {"Brandon"};
+        authors[] = {"Brandon (TCVM)"};
         authorUrl = "https://github.com/BourbonWarfare/POTATO";
         VERSION_CONFIG;
     };
 };
 
-#include "CfgWeapons.hpp"
-#include "CfgVehicles.hpp"
-#include "CfgMagazines.hpp"
-#include "CfgMagazineGroups.hpp"
+#include "CfgEventHandlers.hpp"
 
